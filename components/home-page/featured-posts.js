@@ -1,2 +1,11 @@
-import styles from './featured-post.module.css'
+import classes from "./featured-post.module.css";
 
+function FeaturedPosts() {
+  return (
+    <section className={classes.latest}>
+      <h2>Featured Post</h2>
+    </section>
+  );
+}
+
+export default FeaturedPosts;
